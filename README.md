@@ -6,7 +6,18 @@
    Run the setup_cybershake.bat file.
    This will automatically download and install all required dependencies and packages needed to run the tool.
 
+   ======================
+   python
+   pip
+   git
+   numpy
+   pandas
+   sqlalchemy
+   mysql-connector-python
+   configparser
+   pymysql
+   =======================
 
-3. Start the Tool
+4. Start the Tool
 
     After setup is complete, run the start_cybershake_tool.bat file to launch the CyberShake Tool and begin using it.
