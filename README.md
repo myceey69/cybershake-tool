@@ -2,7 +2,6 @@
 
 2. MacOS and Windows work differently. Use .bat files for Windows and .command files for macOS. 
 
-
 3. Install Dependencies
 
    Run the **setup_windows.bat/setup_macOS.command file**.
@@ -18,7 +17,6 @@
    - configparser
    - pymysql
    
-
 4. Start the Tool
 
     After setup is complete, run the **run_windows.bat/run_macOS.command** file to launch the CyberShake Tool and begin using it.
