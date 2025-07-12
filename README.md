@@ -1,7 +1,11 @@
 1. Download the CyberShake Tool from this repository. 
+<br>
+<br>
 
 2. Go to **https://www.python.org/downloads/** and download Python.  
 When installing Python, make sure to check the boxes below. <img width="656" height="402" alt="image" src="https://github.com/user-attachments/assets/b95ef23a-ac5f-4f5e-afd6-9dd7a5cf573f" />
+<br>
+<br>
 
 3. Install Dependencies
 
@@ -16,13 +20,20 @@ When installing Python, make sure to check the boxes below. <img width="656" hei
    - configparser
    - pymysql
   
-==== On macOS, you have to download and install the files manually. ====
-   
+==== On macOS, you have to download and install the files manually. ====  
+
+   Go to the terminal and type(assuming you already have Python installed for macOS): **pip3 install numpy pandas sqlalchemy mysql-connector-python configparser** and enter. 
+   Additionally, type **pip3 install pymysql** and enter. 
+ <br>  
+ <br>  
+ 
 4. Start the Tool 
 
     After setup is complete, run the **run_cybershake_windows.bat** file to launch the CyberShake Tool and begin using it. (only on Windows)
 
 ==== On macOS, you have to manually go through the terminal to run the code. ====
+
+   Go to terminal and type **cd ~/Downloads/cybershake-tool-master/src** and enter to start the cybershake tool on macOS. 
 
 
 
