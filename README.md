@@ -24,6 +24,16 @@ When installing Python, make sure to check the boxes below. <img width="656" hei
 
    Go to the terminal and type(assuming you already have Python installed for macOS): **pip3 install numpy pandas sqlalchemy mysql-connector-python configparser** and enter. 
    Additionally, type **pip3 install pymysql** and enter. 
+   <br>
+   <br>
+   **Image example:** 
+   <br>
+   <img width="576" height="38" alt="image" src="https://github.com/user-attachments/assets/76f1766c-9a08-4c03-8f77-4edde201d8b4" />
+   <br>
+   <img width="167" height="26" alt="image" src="https://github.com/user-attachments/assets/729460b1-4d9c-4e48-a06e-0ff88da1ea53" />
+
+
+
  <br>  
  <br>  
  
