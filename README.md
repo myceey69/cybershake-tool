@@ -1,11 +1,9 @@
 1. Download the CyberShake Tool
 
-2. MacOS and Windows work differently. Use .bat files for Windows and .command files for macOS. 
+2. Install Dependencies
 
-3. Install Dependencies
-
-   Run the **setup_windows.bat/setup_macOS.command file**.
-   This will automatically download and install all required dependencies and packages needed to run the tool.
+   Run the **setup_windows.bat**. 
+   This will automatically download and install all required dependencies and packages needed to run the tool. (only on Windows)
 
    - python
    - pip
@@ -16,7 +14,14 @@
    - mysql-connector-python
    - configparser
    - pymysql
+  
+==== On macOS, you have to download the install the files manually. ====
    
-4. Start the Tool
+3. Start the Tool 
 
-    After setup is complete, run the **run_windows.bat/run_macOS.command** file to launch the CyberShake Tool and begin using it.
+    After setup is complete, run the **run_windows.bat** file to launch the CyberShake Tool and begin using it. (only on Windows)
+
+==== On macOS, you have to manually go through terminal to run the code. ====
+
+
+
