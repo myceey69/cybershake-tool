@@ -6,9 +6,7 @@
 
    Run the **setup_windows.bat**. 
    This will automatically download and install all required dependencies and packages needed to run the tool. (only on Windows)
-
-   - python
-   - pip
+   
    - git
    - numpy
    - pandas
