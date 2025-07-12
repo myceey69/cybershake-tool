@@ -70,21 +70,29 @@ def run_filter_generator(args_dict):
         arg_string = "%s -d" % arg_string
     if args_dict['input_event_filename'] is not None:
         arg_string = "%s -e %s" % (arg_string, args_dict['input_event_filename'])
-    arg_string = "%s -o %s/output/csdata.%s.json" % (arg_string, args_dict['output_directory'], args_dict['request_label'])
+    args_dict['output_directory'] = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'output'))
+    os.makedirs(args_dict['output_directory'], exist_ok=True)
+    arg_string = "%s -o %s/csdata.%s.json" % (arg_string, args_dict['output_directory'], args_dict['request_label'])
     filt_gen.run_filter_generator.run_main(arg_string.split())
 
 def run_query_builder(args_dict):
     if args_dict['input_filename'] is not None:
         arg_string = '-i %s' % (args_dict['input_filename'])
     else:
-        arg_string = '-i %s/output/csdata.%s.json' % (args_dict['output_directory'], args_dict['request_label'])
+        args_dict['output_directory'] = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'output'))
+        os.makedirs(args_dict['output_directory'], exist_ok=True)
+        arg_string = '-i %s/csdata.%s.json' % (args_dict['output_directory'], args_dict['request_label'])
     if args_dict['debug']==True:
         arg_string = "%s -d" % arg_string
-    arg_string = "%s -o %s/output/csdata.%s.query" % (arg_string, args_dict['output_directory'], args_dict['request_label'])
+    args_dict['output_directory'] = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'output'))
+    os.makedirs(args_dict['output_directory'], exist_ok=True)
+    arg_string = "%s -o %s/csdata.%s.query" % (arg_string, args_dict['output_directory'], args_dict['request_label'])
     query_build.run_query_builder.run_main(arg_string.split())
 
 def run_database_wrapper(args_dict):
-    arg_string = "-of %s -i %s/output/csdata.%s.query -o %s/output/csdata.%s.data -c %s" % (args_dict['output_format'], args_dict['output_directory'], args_dict['request_label'], args_dict['output_directory'], args_dict['request_label'], args_dict['config_filename'])
+    args_dict['output_directory'] = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'output'))
+    os.makedirs(args_dict['output_directory'], exist_ok=True)
+    arg_string = "-of %s -i %s/csdata.%s.query -o %s/csdata.%s.data -c %s" % (args_dict['output_format'], args_dict['output_directory'], args_dict['request_label'], args_dict['output_directory'], args_dict['request_label'], args_dict['config_filename'])
     if args_dict['debug']==True:
         arg_string = "%s -d" % arg_string
     db_wrapper.run_database_wrapper.run_main(arg_string.split())
@@ -104,7 +112,9 @@ def run_main(argv):
         run_filter_generator(args_dict)
     run_query_builder(args_dict)
     run_database_wrapper(args_dict)
-    url_file = '%s/output/csdata.%s.urls' % (args_dict['output_directory'], args_dict['request_label'])
+    args_dict['output_directory'] = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'output'))
+    os.makedirs(args_dict['output_directory'], exist_ok=True)
+    url_file = '%s/csdata.%s.urls' % (args_dict['output_directory'], args_dict['request_label'])
     #By checking if this file exists, we're checking both that we want seismograms and also that the storage requirements are low enough.
     if os.path.exists(url_file):
         run_data_collector(args_dict, url_file)
@@ -119,8 +129,9 @@ def run_main_from_dict(args_dict):
     
     run_query_builder(args_dict)
     run_database_wrapper(args_dict)
-
-    url_file = '%s/output/csdata.%s.urls' % (args_dict['output_directory'], args_dict['request_label'])
+    args_dict['output_directory'] = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'output'))
+    os.makedirs(args_dict['output_directory'], exist_ok=True)
+    url_file = '%s/csdata.%s.urls' % (args_dict['output_directory'], args_dict['request_label'])
     if os.path.exists(url_file):
         run_data_collector(args_dict, url_file)
 
