@@ -7,7 +7,7 @@ When installing Python, make sure to check the boxes below. (on windows) <img wi
 <br>
 <br>
 
-3. Install Dependencies
+3. Install Dependencies/Requirments
 
    Run the **setup_windows.bat**. 
    This will automatically download and install all required dependencies and packages needed to run the tool. (only on Windows)
