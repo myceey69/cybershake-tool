@@ -25,6 +25,7 @@ When installing Python, make sure to check the boxes below. <img width="656" hei
    Go to the terminal and type(assuming you already have Python installed for macOS): **pip3 install numpy pandas sqlalchemy mysql-connector-python configparser** and enter. 
    Additionally, type   **pip3 install pymysql**   and enter. 
    <br>
+   <br>
    Before installing requirements, make sure Python is correctly installed on your system by checking the Python version in the terminal. 
    <br>
    Type   **pip3 --version**   in the terminal to verify that Python is in your system. 
