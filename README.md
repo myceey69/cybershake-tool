@@ -16,13 +16,13 @@ When installing Python, make sure to check the boxes below. <img width="656" hei
    - configparser
    - pymysql
   
-==== On macOS, you have to download the install the files manually. ====
+==== On macOS, you have to download and install the files manually. ====
    
 4. Start the Tool 
 
     After setup is complete, run the **run_windows.bat** file to launch the CyberShake Tool and begin using it. (only on Windows)
 
-==== On macOS, you have to manually go through terminal to run the code. ====
+==== On macOS, you have to manually go through the terminal to run the code. ====
 
 
 
