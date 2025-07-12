@@ -3,7 +3,7 @@
 <br>
 
 2. Go to **https://www.python.org/downloads/** and download Python.  
-When installing Python, make sure to check the boxes below. <img width="656" height="402" alt="image" src="https://github.com/user-attachments/assets/b95ef23a-ac5f-4f5e-afd6-9dd7a5cf573f" />
+When installing Python, make sure to check the boxes below. (on windows) <img width="656" height="402" alt="image" src="https://github.com/user-attachments/assets/b95ef23a-ac5f-4f5e-afd6-9dd7a5cf573f" />
 <br>
 <br>
 
