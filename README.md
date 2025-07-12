@@ -20,7 +20,7 @@ When installing Python, make sure to check the boxes below. <img width="656" hei
    - configparser
    - pymysql
   
-==== On macOS, you have to download and install the files manually. ====  
+**==== On macOS, you have to download and install the files manually. ====**  
 
    Go to the terminal and type(assuming you already have Python installed for macOS): **pip3 install numpy pandas sqlalchemy mysql-connector-python configparser** and enter. 
    Additionally, type **pip3 install pymysql** and enter. 
@@ -41,7 +41,7 @@ When installing Python, make sure to check the boxes below. <img width="656" hei
 
     After setup is complete, run the **run_cybershake_windows.bat** file to launch the CyberShake Tool and begin using it. (only on Windows)
 
-==== On macOS, you have to manually go through the terminal to run the code. ====
+**==== On macOS, you have to manually go through the terminal to run the code. ====**
 
    Go to terminal and type **cd ~/Downloads/cybershake-tool-master/src** and enter to start the cybershake tool on macOS. <br>
    **Note**: if your file is in another location and not in "Downloads", you have to **cd** to the right directory in order to make the cybershake tool work. 
