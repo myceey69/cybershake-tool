@@ -145,7 +145,7 @@ def extract_rvs(args_dict):
                         filename_pieces = basename.split(".")[0].split("_")
                         source_id = int(filename_pieces[2])
                         rupture_id = int(filename_pieces[3])
-                        local_rv_filename = "%s/Seismogram_%s_%s_%s_%s_%s.grm" % (args_dict['output_directory'], site_name, run_id, source_id, rupture_id, rv)
+                        local_rv_filename = "%s/seismograms/Seismogram_%s_%s_%s_%s_%s.grm" % (args_dict['output_directory'], site_name, run_id, source_id, rupture_id, rv)
                         with open(local_rv_filename, 'wb') as fp_out:
                             fp_out.write(header_str)
                             fp_out.write(rv_data)
