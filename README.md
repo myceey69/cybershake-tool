@@ -23,7 +23,9 @@ When installing Python, make sure to check the boxes below. <img width="656" hei
 **==== On macOS, you have to download and install the files manually. ====**  
 
    Go to the terminal and type(assuming you already have Python installed for macOS): **pip3 install numpy pandas sqlalchemy mysql-connector-python configparser** and enter. 
-   Additionally, type **pip3 install pymysql** and enter. 
+   Additionally, type   **pip3 install pymysql**   and enter. Before installing requirements, make sure Python is correctly installed on your system by checking the Python version in the terminal. 
+   <br>
+   Type   **pip3 --version**   in the terminal to verify that Python is in your system. 
    <br>
    <br>
    **Image example:** 
@@ -43,8 +45,8 @@ When installing Python, make sure to check the boxes below. <img width="656" hei
 
 **==== On macOS, you have to manually go through the terminal to run the code. ====**
 
-   Go to terminal and type **cd ~/Downloads/cybershake-tool-master/src** and enter to start the cybershake tool on macOS. <br>
-   **Note**: if your file is in another location and not in "Downloads", you have to **cd** to the right directory in order to make the cybershake tool work. 
+   Go to terminal and type   **cd ~/Downloads/cybershake-tool-master/src**   and enter to start the cybershake tool on macOS. <br>
+   **Note**: if your file is in another location and not in "Downloads", you have to   **cd**   to the right directory in order to make the cybershake tool work. 
 
 
 
