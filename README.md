@@ -3,7 +3,7 @@
 <br>
 
 2. Go to **https://www.python.org/downloads/** and download Python.  
-When installing Python, make sure to check the boxes below. (on windows) <img width="656" height="402" alt="image" src="https://github.com/user-attachments/assets/b95ef23a-ac5f-4f5e-afd6-9dd7a5cf573f" />
+When installing Python, make sure to check the boxes below. (on Windows) <img width="656" height="402" alt="image" src="https://github.com/user-attachments/assets/b95ef23a-ac5f-4f5e-afd6-9dd7a5cf573f" />
 <br>
 <br>
 
@@ -52,20 +52,20 @@ When installing Python, make sure to check the boxes below. (on windows) <img wi
 
 **==== On macOS, you have to manually go through the terminal to run the code. ====**
 
-   Go to terminal and type **cd ~/Downloads/cybershake-tool-master/src** and enter, then type **python3 main.py** to start the cybershake tool on macOS. <br>
+   Go to the terminal and type **cd ~/Downloads/cybershake-tool-master/src** and enter, then type **python3 main.py** to start the cybershake tool on macOS. <br>
    **Note**: if your file is in another location and not in "Downloads", you have to   **cd**   to the right directory in order to make the cybershake tool work. 
 
 <br>
 <br>
-5. A built-in seismogram reader is included. Simply run seismogram_reader.bat, then copy the filename of the seismogram file retrieved in the output folder, paste it when prompted, and the tool will display the seismogram plot. (only on windows)
+5. A built-in seismogram reader is included. Simply run seismogram_reader.bat, then copy the filename of the seismogram file retrieved in the output folder, paste it when prompted, and the tool will display the seismogram plot. (only on Windows)
 
 
 <img width="938" height="510" alt="image" src="https://github.com/user-attachments/assets/be7c2738-0708-429a-b0c7-6bbbbe500089" />
 
 
-**==== On macOS, you hav  to manually go through the terminal to run the code. ====**
+**==== On macOS, you have  to manually go through the terminal to run the code. ====**
 
-   Go to terminal and type **cd ~/Downloads/cybershake-tool-master/src** and enter, then type **python3 seismogramsReader.py** to start the seismogram reader on macOS. <br> 
+   Go to the terminal and type **cd ~/Downloads/cybershake-tool-master/src** and enter, then type **python3 seismogramsReader.py** to start the seismogram reader on macOS. <br> 
    **Note**: if your file is in another location and not in "Downloads", you have to   **cd**   to the right directory in order to make the seismogram reader work.
 
 
