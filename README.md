@@ -24,7 +24,7 @@ When installing Python, make sure to check the boxes below. (on windows) <img wi
 **==== On macOS, you have to download and install the files manually. ====**  
 
    Go to the terminal and type(assuming Python is already installed for macOS): **pip3 install numpy pandas sqlalchemy mysql-connector-python configparser** and enter. 
-   Additionally, type   **pip3 install pymysql**   and enter. 
+   Additionally, type   **pip3 install pymysql**  , then **pip3 install matplotlib** , and enter. 
    <br>
    <br>
    Before installing requirements, make sure Python is correctly installed on your system by checking the Python version in the terminal. 
