@@ -17,7 +17,7 @@ IF %ERRORLEVEL% NEQ 0 (
 )
 
 :: --- Install required Python packages ---
-pip install numpy pandas sqlalchemy mysql-connector-python configparser pymysql
+pip install numpy pandas sqlalchemy mysql-connector-python configparser pymysql matplotlib
 
 :: --- Upgrade pip ---
 echo Upgrading pip...
