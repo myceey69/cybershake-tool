@@ -19,6 +19,7 @@ When installing Python, make sure to check the boxes below. (on windows) <img wi
    - mysql-connector-python
    - configparser
    - pymysql
+   - matplotlib
   
 **==== On macOS, you have to download and install the files manually. ====**  
 
