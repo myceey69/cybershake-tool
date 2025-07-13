@@ -65,8 +65,8 @@ When installing Python, make sure to check the boxes below. (on windows) <img wi
 
 **==== On macOS, you hav  to manually go through the terminal to run the code. ====**
 
-   Go to terminal and type **cd ~/Downloads/cybershake-tool-master/src** and enter, then type **python3 seismogramsReader.py** to start the cybershake tool on macOS. <br> 
-   **Note**: if your file is in another location and not in "Downloads", you have to   **cd**   to the right directory in order to make the cybershake tool work.
+   Go to terminal and type **cd ~/Downloads/cybershake-tool-master/src** and enter, then type **python3 seismogramsReader.py** to start the seismogram reader on macOS. <br> 
+   **Note**: if your file is in another location and not in "Downloads", you have to   **cd**   to the right directory in order to make the seismogram reader work.
 
 
 
