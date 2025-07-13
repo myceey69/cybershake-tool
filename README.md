@@ -53,7 +53,7 @@ When installing Python, make sure to check the boxes below. (on windows) <img wi
 
 <br>
 <br>
-5. A built-in seismogram reader is included. Simply run **seismogram_reader.bat**, then copy the filename of the seismogram file retrieved in the output folder, paste it when prompted, and the tool will display the seismogram plot. 
+5. A built-in seismogram reader is included. Simply run seismogram_reader.bat, then copy the filename of the seismogram file retrieved in the output folder, paste it when prompted, and the tool will display the seismogram plot. 
 
 
 <img width="938" height="510" alt="image" src="https://github.com/user-attachments/assets/be7c2738-0708-429a-b0c7-6bbbbe500089" />
