@@ -12,7 +12,7 @@ grm_folder = os.path.join(current_dir, '..', 'output')
 print("\nWelcome to the Seismogram Reader!\n")
 print("Please provide the filename of the .grm file you want to read.")
 print("Make sure the file is located in the '../output/' directory relative to this script.\n")
-filename = input("Enter the .grm filename (e.g., Seismogram_USC_xxxx_xx_x_xx.grm): ").strip()
+filename = input("Enter the .grm filename: ").strip()
 
 # Full path to the .grm file
 filepath = os.path.join(grm_folder, filename)
