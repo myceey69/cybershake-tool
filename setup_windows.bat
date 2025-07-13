@@ -33,7 +33,7 @@ echo Then run your CyberShake tool with:
 echo     -Opening run_windows (for windows)
 
 echo     -Opening terminal go to the cybershake tool directory with 
-echo     command (cd) and then type "python run_retrieve.py" (for macOS)
+echo     command (cd) and then type "python main.py" (for macOS)
 echo ---------------------------------------------
 
 pause
